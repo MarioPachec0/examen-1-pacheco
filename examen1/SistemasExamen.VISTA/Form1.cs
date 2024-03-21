@@ -1,10 +1,19 @@
-namespace SistemasExamen.VISTA
+using SistemaExamen.BSS;
+using SistemasExamen.VISTA;
+
+namespace SistemaVISTA.VISTA.PersonaVISTA
 {
-    public partial class Form1 : Form
-    {
-        public Form1()
+   public partial class PersonaListarVISTA : Form
+   {
+        public PersonaListarVISTA()
         {
-            InitializeComponent();
+            InitializeComponent()
+        }
+        PersonaBss bss=new PersonaBss();
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
